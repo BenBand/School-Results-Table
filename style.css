@@ -10,7 +10,7 @@ body {
 }
 .student-table {
     width: 100%;
-    margin-top: 15px;
+    margin-top: 12px;
     border-collapse: collapse;
 }
 .student-table, tr, td, th {
@@ -24,4 +24,10 @@ body {
 .student-table td, tr {
     padding: 10px;
     text-align: center;
+}
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
 }

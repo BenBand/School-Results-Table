@@ -41,5 +41,38 @@ section {
     margin-top: 30px;
 }
 /* media query for the responsive form */
-@media (max-width: 600px) {}
+@media (max-width: 600px) {
+    body {
+        width: 100%;
+        border: 1px solid #222831;
+    }
+    section {
+        display: block;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        
+    }
+    section > .program-holder {
+        margin-top: 30px;
+    }
+    .student-table th {
+        color: #fff;
+        background-color: #000;
+        display: flex;
+        flex-direction: column;
+    }
+    .student-table {
+        width: 100%;
+    }
+    .student-table td {
+        display: flex;
+        flex-direction: column;
+    }
+    .student-table tr:nth-child(even) {
+        background-color: #393e46;
+        color: #fff;
+    }
+}
 /* media query for the responsive form */
